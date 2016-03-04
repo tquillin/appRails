@@ -143,6 +143,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.2, >= 1.2.0.pre)
   byebug
   jbuilder (~> 2.0)
   jquery-rails
