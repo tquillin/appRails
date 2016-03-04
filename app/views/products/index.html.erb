@@ -1,0 +1,14 @@
+<h3>All products (a.k.a. Home Page)</h3>
+
+<%= link_to "New", new_product_path %>
+
+<ul>
+  <% @products.each do |product| %>
+  <li><%= product.name %></li>
+    <%= link_to product.name, product_path(product)%>
+  <p>
+    <%= product.description%>
+  </p>
+  <li><%= product.rating%> %</li>
+  <% end %>
+</ul>
