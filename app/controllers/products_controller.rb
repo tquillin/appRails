@@ -9,6 +9,12 @@ def create
     redirect_to product_path(product)
 end
 
+# def code_image
+#   @image_data = Product.find(params[:id])
+#   @image = @image_data.binary_data
+#   send_data = (@image :type => @image_data.content_type :filename => @image_data.filename :disposition => 'inline')
+# end
+
 def new
   @product = Product.new
 end
@@ -31,10 +37,10 @@ end
 #          DELETE /products/:id(.:format)      products#destroy
 def destroy
     Product.delete(params[:id])
-    redirect_to products_path 
+    redirect_to products_path
 end
 private
   def product_params
-      params.require(:product).permit(:name, :description, :rating)
+      params.require(:product).permit(:name, :description, :rating, :detail, :content_type, :filename, :binary_data)
   end
 end

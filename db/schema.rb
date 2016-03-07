@@ -20,8 +20,12 @@ ActiveRecord::Schema.define(version: 20160304173000) do
     t.string   "name"
     t.string   "description"
     t.integer  "rating"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "detail"
+    t.string   "content_type"
+    t.string   "filename"
+    t.binary   "binary_data"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end
