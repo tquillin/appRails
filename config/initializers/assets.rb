@@ -12,7 +12,7 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( welcome.scss )
 Rails.application.config.assets.precompile += %w( application.css )
-Rails.application.config.assets.precompile += %w( products.js )
-Rails.application.config.assets.precompile += %w( beer.png )
-Rails.application.config.assets.precompile += %w( tequila.jpg )
-Rails.application.config.assets.precompile += %w( wine.png )
+Rails.application.config.assets.precompile += %w( javascripts/products.js )
+Rails.application.config.assets.precompile += %w( images/beer.png )
+Rails.application.config.assets.precompile += %w( images/tequila.jpg )
+Rails.application.config.assets.precompile += %w( images/wine.png )
