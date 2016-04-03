@@ -69,7 +69,14 @@
       <%= product.description%>
     </li>
     <br /><li>THC:<%= product.rating%> %</li><br />
+    <%= button_to "Delete a product", product_path(product), method: :delete %>
+
     <% end %>
+    <!-- <% button_to "Delete"%> -->
+
+
+
+
   </ul>
 
 </div>
