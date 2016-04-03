@@ -1,0 +1,24 @@
+/* line 4, /Users/QT/code/wdi/appRails/app/assets/stylesheets/welcome.scss */
+body {
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 10, /Users/QT/code/wdi/appRails/app/assets/stylesheets/welcome.scss */
+.age-requirement {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+/* line 15, /Users/QT/code/wdi/appRails/app/assets/stylesheets/welcome.scss */
+.entrance {
+  text-align: center;
+}
+
+/* line 20, /Users/QT/code/wdi/appRails/app/assets/stylesheets/welcome.scss */
+a:hover {
+  color: pink;
+  font-size: 90px;
+}
